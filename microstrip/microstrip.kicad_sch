@@ -2,8 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 91e7a6fe-e73a-49de-a5bd-ed0de75728f7)
+	(uuid "91e7a6fe-e73a-49de-a5bd-ed0de75728f7")
 	(paper "A4")
+	(title_block
+		(title "Microstrip")
+		(company "Eng. Ygor K.")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
