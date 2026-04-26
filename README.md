@@ -6,12 +6,12 @@ This project aims to simulate the behavior and electrical parameters of a micros
 
 Using the KiCAD calculator, we arrived at the following results for the coplanar microstrip waveguide:
 
-[calculator](img/calculator.png)
+![calculator](img/calculator.png)
 
 As configured in the calculation, the stack-up used was:
 
-[stackup](img/stackup.png)
+![stackup](img/stackup.png)
 
 Using 1.5mm pads, the final design can be seen as following:
 
-[pcb-design](img/pcb-design.png)
+![pcb-design](img/pcb-design.png)
