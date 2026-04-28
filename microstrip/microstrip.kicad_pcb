@@ -92,7 +92,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "27e63914-2d75-46da-900c-d099c4d04302")
-		(at 89.445 74.96)
+		(at 98.09 75)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "REF**"
@@ -238,7 +238,7 @@
 		(pad "" smd rect
 			(at 0 0)
 			(size 2.85 2.85)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu")
 			(net 2 "50R")
 			(uuid "4eb78e5a-69b1-45e1-bf2d-6da85ffb6169")
 		)
@@ -247,13 +247,13 @@
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "f3473a4b-3ea7-42f8-9bbd-747aecf2ac31")
-		(at 59.855 75)
+		(at 51.94 75)
 		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "REF**"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
-			(uuid "32a272dd-df77-49f1-9555-24b5aa0be03f")
+			(uuid "efbd093b-bfaf-48c0-8112-a729c50587ff")
 			(effects
 				(font
 					(size 1 1)
@@ -264,7 +264,7 @@
 		(property "Value" "TestPoint_Pad_1.5x1.5mm"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "6253ecb2-c5af-4ed7-96ce-7816ad095bdc")
+			(uuid "8e99796e-e8b2-45c5-a7d6-22b77a020537")
 			(effects
 				(font
 					(size 1 1)
@@ -277,7 +277,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed3a708b-ae91-442d-822b-f6b7d86ad367")
+			(uuid "132144e8-5541-42ec-b5b2-d0f92a7b71bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -290,7 +290,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bf47783-0db2-443a-9c69-d3848cebf433")
+			(uuid "f7d6d9f8-9944-4fec-8b0f-b84730ca01b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +393,7 @@
 		(pad "" smd rect
 			(at 0 0)
 			(size 2.85 2.85)
-			(layers "F.Cu" "F.Mask")
+			(layers "F.Cu")
 			(net 2 "50R")
 			(uuid "44f62a9b-fe7e-4647-a304-ddf3b9f3a756")
 		)
@@ -409,6 +409,18 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "4ee35d7d-75ee-4d16-96db-0df4957b593e")
+	)
+	(gr_rect
+		(start 50.51 73.575)
+		(end 99.51 76.425)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "ddb7413b-fca4-4aec-b340-97776aa4c6fd")
 	)
 	(gr_line
 		(start 31.820001 177.017)
@@ -1168,7 +1180,7 @@
 		(layer "Dwgs.User")
 		(uuid "4ceeeec1-ba2f-4b6f-b09a-6523e08f7b59")
 		(pts
-			(xy 58.430002 73.574998) (xy 58.429968 76.425074)
+			(xy 50.51 76.425074) (xy 50.51 73.575)
 		)
 		(height -17.54)
 		(orientation 1)
@@ -1190,7 +1202,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "2.85mm"
-			(at 39.090002 75.000036 90)
+			(at 31.17 75.000037 90)
 			(layer "Dwgs.User")
 			(uuid "4ceeeec1-ba2f-4b6f-b09a-6523e08f7b59")
 			(effects
