@@ -46,7 +46,7 @@ simulationObj.mw.solveroutine.set_solver(em.EMSolver.PARDISO)
 #######################################################################################################################################
 fmin = 2.5*1000000000.0
 fmax = 3.5*1000000000.0
-resolution = 0.1
+resolution = 0.2
 npoints = 30
 simulationObj.mw.set_frequency_range(fmin, fmax, npoints)
 simulationObj.mw.set_resolution(resolution)
