@@ -238,11 +238,11 @@ def createGmshNamedGroup(geometryObjName: str, groupName: str, groupTag: int = -
 		gmsh.model.addPhysicalGroup(2, objectTag2DList, name=groupName)
 		gmsh.model.addPhysicalGroup(3, objectTag3DList, name=groupName)
 
-createGmshNamedGroup('prepag', 'prepag')
+createGmshNamedGroup('in', 'in')
 createGmshNamedGroup('airbox', 'airbox')
 createGmshNamedGroup('copper', 'copper')
-createGmshNamedGroup('in', 'in')
 createGmshNamedGroup('out', 'out')
+createGmshNamedGroup('prepag', 'prepag')
 createGmshNamedGroup('airbox', 'airboxBoundary', useBoundary=True)
 
 simulationObj.export('microstrip.msh')
