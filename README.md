@@ -34,7 +34,7 @@ The results of the simulations using the 3 tools are presented below.
 
 ### OpenEMS - Response to Gauss Excitation
 
-![openems-video](openems/microstrip-openems_openEMS_simulation/microstrip.mp4)
+![openems-video](openems/microstrip-openems_openEMS_simulation/microstrip.gif)
 
 ### Elmer FEM - Current Distribution
 
