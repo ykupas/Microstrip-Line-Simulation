@@ -26,4 +26,25 @@ After the design was complete in KiCAD, it was imported into FreeCAD, added air 
 
 Simulations using the FDTD method aim to visualize electromagnetic fields propagating in 3D over time, allowing for the analysis of a system's response to different excitations, as well as in a broadband context. On the other hand, FEM solvers are time-independent and perform frequency response analysis of systems, which is widely used to characterize RF components or calculate electrical current density.
 
-For these simulations, a response analysis to a 3GHz sine wave signal will be performed using OpenEMS, an S11 analysis using Emerge, and a current density analysis using Elmer.
+For these simulations, a response analysis to a 3GHz gauss excitation will be performed using OpenEMS, a S11 analysis using Emerge, and a current density analysis using Elmer.
+
+## Results
+
+The results of the simulations using the 3 tools are presented below.
+
+### OpenEMS - Response to Gauss Excitation
+
+![openems-video](openems/microstrip-openems_openEMS_simulation/microstrip.gif)
+
+### Elmer FEM - Current Distribution
+
+![elmer-current-image](elmer/volume_distribuition.png)
+
+### Elmer FEM - Joule Distribution
+
+![elmer-joule-image](elmer/joule_distribuition.png)
+
+### Emerge Software - S11
+
+![emerge-s11-image](emerge/microstrip-emerge_EMerge_simulation/s11-mag-phase.png)
+![emerge-smith-image](emerge/microstrip-emerge_EMerge_simulation/s11-smith.png)

@@ -399,17 +399,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_line
-		(start 59.855 75)
-		(end 89.445 75)
-		(stroke
-			(width 2.85)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "4ee35d7d-75ee-4d16-96db-0df4957b593e")
-	)
 	(gr_rect
 		(start 50.51 73.575)
 		(end 99.51 76.425)
